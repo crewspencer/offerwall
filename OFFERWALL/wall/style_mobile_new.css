@@ -1,0 +1,1721 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/*div#filtersDIV select#cat {
+    padding: 10px !important;
+    width: 50% !important;
+    margin-left: 15px !important;
+    border-radius: 5px !important;
+}*/
+/*-------------------------- Changes --------------------------*/
+
+.center {
+    width: 100% !important;
+    padding-top: 0px;
+}
+.head{
+    height: 55px !important;
+}
+.center h2 {
+    margin: 0px !important;
+}
+.all-offers h3 {
+    color: #c0c0c0 !important;
+}
+.   all-offers .text h4 {
+    color: #d0d0d0 !important;
+}
+center b {
+    color: #ffffff !important;
+}
+table.list {
+    max-width: 100% !important;
+} 
+body div:nth-child(06) > .all-offers:first-child {
+    display: block !important;
+}
+body .offers-and-surveys + div .all-offers > h3 {
+    display: none !important;
+}
+/*-------------------------- Servay Box Start --------------------------*/
+table.list {
+    border: 0px !important;
+    width: 100% !important;
+}
+table.list tr.header td {
+    background: #36465d !important;
+    border: 0 !important;
+    color: aliceblue !important;
+    font-weight: 500 !important;
+    text-align: initial !important;
+    padding-left: 13px !important;
+}
+table.list tr td {
+    background: #36465d !important;
+    text-align: left !important;
+    padding: 12px !important;
+    border: none !important;
+    color: #adc2e1 !important;
+    border-top: 2px solid #2e3649 !important;
+    border-bottom: 2px solid #2e3649 !important;
+}
+input#pickdob {
+    width: 100% !important;
+    margin-left: -21px;
+    border-radius: 5px;
+    border: 0px !important;
+    box-shadow: inset 0px 0px 3px;
+    padding: 9px !important;
+    -webkit-appearance: none;
+       -moz-appearance:none;
+       appearance:none;
+    background: #ffff;
+    height: 15px;
+}
+input[type="text"] {
+    width: 100% !important;
+    padding: 9px;
+    margin-left: -21px;
+    border-radius: 5px;
+    border: 0px !important;
+    box-shadow: inset 0px 0px 3px;
+}
+select {
+    width: 108% !important;
+    padding: 9px;
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 0px !important;
+    box-shadow: inset 0px 0px 3px !important;
+    -webkit-appearance: none;
+       -moz-appearance:    none;
+       appearance:         none;
+    background-color:#fff;
+    background-image: url(https://freepngimg.com/thumb/web_design/24697-8-down-arrow-image.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+input[type="submit"] {
+    width: 100% !important;
+    padding: 10px !important;
+    background: #007aff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color: #ffffff !important;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+    background-image: url(https://freepngimg.com/thumb/web_design/24697-8-down-arrow-image.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+table.list tr td select {
+    margin-left: -22px;
+}
+/*-------------------------- Servay Box Close --------------------------*/
+
+body div:nth-child(06) > .all-offers:first-child {
+    display: none;
+}
+
+/*============================ Filter Start ============================*/
+
+div#filtersDIV {
+    display: flex !important;
+    padding: 12px !important;
+}
+div#filtersDIV select#cat {
+    padding: 10px !important;
+    width: 50% !important;
+    margin-right: 10px !important;
+    border-radius: 5px !important;
+}
+div#filtersDIV select#sortmenu {
+    width: 50% !important;
+    border-radius: 5px !important;
+}
+
+/*============================ Filter Start ============================*/
+
+div#filtersDIV {
+    display: flex !important;
+    padding: 12px !important;
+}
+div#filtersDIV select#cat {
+    padding: 10px !important;
+    width: 50% !important;
+    margin-right: 10px !important;
+    border-radius: 5px !important;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+    background-color: #fff;
+    background-image: url(https://freepngimg.com/thumb/web_design/24697-8-down-arrow-image.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+div#filtersDIV select#sortmenu {
+    width: 50% !important;
+    border-radius: 5px !important;
+    background-color: #fff;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+    background-color: #fff;
+    background-image: url(https://freepngimg.com/thumb/web_design/24697-8-down-arrow-image.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+
+}
+
+/*============================ Filter Close ============================*/
+
+
+table.list {
+	border: 4px solid #BCC2C6;
+    border-spacing: 0px;
+    border-collapse: collapse;
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-bottom: 80px!important;
+}
+
+table.list td {
+	border: 1px solid #BCC2C6;
+	padding: 4px;
+	background: #ECF0F0;
+	text-align: center;
+}
+
+
+table.list tr.header td {
+	font-weight: bold;
+	background: #BCC2C6;
+}
+
+table.list tr.header th {
+	font-weight: bold;
+	background: #BCC2C6;
+}
+
+
+body{
+	font-family: "Roboto";
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #36465d;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: "Roboto" !important;
+}
+a{
+	text-decoration: none;
+}
+.flesh-screen{
+	background: #E0E0E0;
+	width: 100%;
+	height: 100vh;
+}
+.game {
+    color: #AEAEB2;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 252px 79px;
+    text-align: center;
+    margin: 0px;
+}
+.main{
+	width: 100%;
+}
+.button {
+    background-color: #000000;
+    width: 105px;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    margin: auto;
+}
+.button p{
+	color: #ffffff;
+	margin: auto 0px;
+	font-size: 12px;
+}
+img.dimond {
+    padding: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+/*=======================================================
+					  get-gems
+=========================================================*/
+
+.gems-earned .content {
+    background: #495a74 !important;
+}
+a .content h3 {
+    color: #b8c9e5 !important;
+}
+.line-two h1 {
+    color: #fffeff !important;
+}
+.content {
+    background: #2e3649 !important;
+}
+.offers{
+	background: #35475b !important;
+	color: #fbffff !important;
+}
+div#surveysBtn h3 {
+    color: #fff;
+}
+.all-offers h3{
+	color: #d4d4d4;
+}
+.offers-gems h3 {
+    color: #fdfdff !important;
+}
+.border {
+    border-top: 1px solid #2e3649 !important;
+    border-bottom: 1px solid #2e3649 !important;
+}
+.ammount{
+	background-color: #ffffff !important;
+}
+.ammount h2{
+	color: #000000 !important;
+	font-weight: 700 !important;
+}
+.survey {
+    background: #495a76 !important;
+}
+.surveytime {
+    color: #acbdd9 !important;
+}
+.award.green {
+    color: #000 !important;
+    font-weight: 800 !important;
+    background-color: #fefefe !important;
+}
+div#offersBtn h3 {
+    color: #ffff !important;
+}
+.surveys-on {
+    background-color: #35475b !important;
+}
+
+
+
+/*====================== header for all =================================*/
+.head{
+	height: 88px;
+	background-color:#36465d;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    color: #ffffff;
+    border-bottom: 1px solid #36465d;
+}
+/*.left, .right, .center{
+	width: 33.33%;
+    padding-top: 0px;
+}*/
+.right{
+	text-align: right;
+    display: none;
+}
+.left{
+	text-align:left;
+    display: none;
+}
+.center{
+    width: 100%;
+	text-align: center;
+}
+.left img{
+	height: 17.5px;
+	width: 10px;
+}
+.right img{
+	width: 22px;
+	height: 6px;
+}
+.center h2 {
+    font-size: 17px;
+}
+
+/*=============================================================*/
+
+.banner-img img {
+    width: 100%;
+}
+
+.gems-earned{
+	width: 100%;
+}
+.content {
+	position: relative;
+    background: #F2F2F7;
+    margin: 13px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.dimond-earned{
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+}
+.line-two {
+    display: flex;
+    align-items: center;
+}
+.content h3 {
+    font-size: 13px;
+    margin: 5px;
+    margin-left: 1px;
+    font-weight: 600;
+}
+.line-two h1{
+	font-size:22px;
+	font-weight: 700;
+	margin:0px;
+}
+.arrow-left {
+    position: absolute;
+    right: 8px;
+    top: 52%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.arrow-left img{
+	width: 5.33px;
+    height: 9.33px;
+}
+
+
+/*===================offers===================*/
+
+.offers, .surveys{
+	width: 50%;
+}
+.surveys{
+	text-align:center;
+}
+.surveys a h3{
+	color: #8E8E93;
+}
+.offers{
+	background-color: #fff;
+	box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+	padding:8.5px 0px;
+	border-radius: 5px;
+	text-align:center;
+}
+.content-two{
+	padding:5px !important;
+    display: flex;
+    align-items: center;
+}
+
+
+.all-offers {
+    margin: 9px 13px;
+    /*margin-bottom: 4px;*/
+}
+.all-offers h3{
+	font-size: 12px;
+	font-weight: 400;
+	color: #8E8E93;
+}
+
+
+
+
+
+
+.icon {
+    width: 20%;
+}
+.text{
+	width: 66%;
+}
+/*.amount-gems{
+	width: 20%;
+}*/
+/*.amount-gems_1{
+	width: 30%;
+}*/
+.offers-gems {
+    display: flex;
+    align-items: center;
+}
+.icon img{
+	width: 54px;
+	height: 54px;
+}
+
+.offers-gems h4 {
+    font-size: 13px;
+    color: #8E8E93;
+    margin: 0px;
+    margin-bottom: 9px;
+    font-weight: 400;
+}
+.offers-gems h3 {
+    font-size: 15px;
+    margin: 7px 0px;
+    margin-right: 7px;
+    color: #000000;
+    line-height: 1.33;
+}
+.ammount h2{
+	margin: 10px 0px;
+	font-size: 14px;
+	font-weight: 500;
+    margin-right: 8px;
+	color: #ffffff;
+    font-size: 13px !important;
+}
+.ammount img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    padding-top: 3px;
+}
+.ammount {
+    text-align:center;
+    justify-content: center;
+	width:86px;
+   /*  word-break: break-all; */
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 6px; 
+}
+.border {
+    border-top: 1px solid #E5E5EA;
+    border-bottom: 1px solid #E5E5EA;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+strike {
+    font-size: 11px !important;
+}
+
+
+img.lazy {
+    border-radius: 13px !important;
+    border: 1px solid #989898 !important;
+}
+
+
+
+.hot .all-offers:before {
+    position: absolute;
+    content: "HOT";
+    width: 87px;
+    background-color: red;
+    transform: rotate(45deg);
+    text-align: center;
+    color: white;
+    z-index: 999;
+    right: -7%;
+    padding: 2px;
+    top: 12px;
+    font-weight: 600 !important;
+    font-size: 12px;
+}
+div#offersDIV .hot {
+    overflow: hidden;
+    position: relative !important;
+    background: #8519c4;
+    border-radius: 6px;
+}
+div#cboxLoadedContent {
+    width: 100%;
+    overflow: visible;
+    height: 100vh;
+}
+
+
+
+div#filtersDIV {
+/*     display: none; */
+}
+
+@media(max-width: 425px){
+    .offers-gems h3 {
+          margin: 8px 0px;
+    padding-right: 10px;
+    }
+
+    .ammount h2 {
+    flex-wrap: wrap !important;
+    flex-direction: column-reverse !important;
+    display: flex !important;
+    }
+.ammount h2 br{
+    display: none;
+}
+}
+
+@media(max-width: 375px){
+.all-offers .offers-gems h3{
+        font-size: 15px !important;
+        padding-right: 10px !important;
+         padding-left: 10px !important;
+    }
+}
+
+@media(max-width: 320px){
+    .all-offers .offers-gems h3 {
+    font-size: 14px !important;
+    padding-right: 14px !important;
+    padding-left: 0px !important;
+}
+.amount-gems {
+    width: 33% !important;
+}
+.text {
+    width: 58% !important;
+}
+
+}
+
+/*====================== Offer Detail =================================*/
+.offer-top-section {
+	display: flex;
+}
+.offer-top-section .col-8 {
+	width: 80%;
+}
+.offer-top-section .col-4 {
+	width: 20%;
+}
+.offer-top-section {
+    display: flex;
+    padding: 40px 0;
+}
+.offer-top-section .col-8 h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.364px;
+    color: #000000;
+    margin-top: 0;
+}
+.offer-top-section .col-8 ul {
+    padding: 0;
+    display: flex;
+}
+.offer-top-section .col-8 ul li {
+    list-style: inside;
+    padding: 0 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #000000;
+}
+.offer-top-section .col-8 ul li:first-child {
+    list-style: none;
+}
+.offer-top-section .col-8 {
+    width: 80%;
+    padding: 0 15px;
+    padding-right: 6px;
+}
+.earn-points p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8E8E93;
+}
+.earn-points .offer-box {
+background: #F2F2F7;
+padding: 24px 16px;
+border-radius: 8px;
+margin-top: 8px;
+}
+.earn-points .offer-box .amount-gems {
+    width: 88px;
+    height: 40px;
+}
+.earn-points .offer-box .ammount img {
+    height: 24px;
+    width: 24px;
+}
+.earn-points .offer-box .ammount h2 {
+    margin: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+.earn-points .offer-box h3 {
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.408px;
+color: #000000;
+}
+.earn-points .offer-box button {
+background-color: #007AFF;
+border-radius: 8px;
+border: none;
+width: 100%;
+padding: 12px;
+margin-bottom: 28px;
+}
+.earn-points .offer-box button a {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	    font-family: "Roboto";
+}
+.earn-points .offer-box button a img {
+margin-left: 5px;
+}
+.offer-top-section .col-8 ul {
+    padding: 0;
+    display: flex;
+    margin-bottom: 0;
+}
+.earn-points p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8E8E93;
+    margin-top: 0;
+}
+a .content h3 {
+    color: #b8c9e5 !important;
+}
+.line-two h1 {
+    color: #000000;
+     font-size: 30px;
+}
+.earn-points {
+    margin: 0px 16px;
+}
+.col-8 ul li {
+    padding: 0px;
+}
+.earn-points .ammount {
+    text-align: center;
+    justify-content: center;
+    width: 89px;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 0px;
+    background-color: #000000;
+}
+/*====================== End Offer Detail =================================*/
+
+
+/*============================================= Servays ==========================================*/
+
+.one-s{
+	width: 33.33%;
+}
+.all-box .one-s:nth-child(1) {
+   	background: #F2F2F7;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.all-box .one-s:nth-child(3) {
+  	background: #F2F2F7;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.all-box {
+    display: flex;
+    margin: 0px 14px;
+}
+.one-s {
+    width: 33.33%;
+    padding: 0px;
+    margin: 10px;
+    background: #F2F2F7;
+    border-radius: 12px;
+}
+.ammount-s h2{
+	margin: 6px 0px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.ammount-s img {
+    height: 16px;
+    width: 16px;
+    padding: 5px;
+    padding-top: 3px;
+}
+.ammount-s {
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    width: 69px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #000000;
+}
+.time h2{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	color: #007AFF;
+	margin-bottom:2px;
+}
+.amount-all {
+    margin: 17px;
+}
+.all-box-two .one-s:nth-child(1) {
+   	background: #F2F2F7;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.all-box-two .one-s:nth-child(3) {
+  	background: #F2F2F7;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.all-box-two {
+    display: flex;
+    margin: 0px 14px;
+}
+.all-box-two .one-s {
+    margin: 0px 10px;
+}
+.all-box-two .one-s {
+    margin: 0px 10px;
+}
+.offers-off, .surveys-on{
+	width: 50%;
+}
+.surveys-on {
+	background-color: #ffffff;
+	box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+	padding:8.5px 0px;
+	border-radius: 5px;
+	text-align:center;	
+}
+.offers-off a h3{
+	color: #8E8E93;
+
+}
+.offers-off {
+	text-align:center;
+}
+/*============================================= End of Servays ==========================================*/
+
+/*========================================= Earned Gems Unfinished ======================================*/
+
+.d-img {
+    text-align: center;
+    margin-top: 10%;
+}
+.d-img img {
+    margin: 0px auto;
+    height: 48px;
+    width: 48px;
+}
+.d-total h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.d-sub-text h2 {
+    text-align: center;
+    color: #8E8E93;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.complete-off, .unfinished-on{
+	width: 50%;
+}
+.complete-off a h3{
+	text-align:center;
+	color: #8E8E93;
+}
+.unfinished-on a h3{
+	text-align:center;
+	color: #000000;
+}
+.unfinished-on{
+	background-color: #ffffff;
+	box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+	padding:8.5px 0px;
+	border-radius: 5px;
+	text-align:center;
+}
+/*========================================= END OF Earned Gems Unfinished ======================================*/
+
+
+/*========================================= Earned Gems Complete ======================================*/
+
+
+.complete-on, .unfinished-off{
+	width: 50%;
+}
+.unfinished-off a h3{
+	text-align:center;
+	color: #8E8E93;
+}
+.complete-on a h3{
+	text-align:center;
+	color: #000000;
+}
+.complete-on{
+	background-color: #ffffff;
+	box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+	padding:8.5px 0px;
+	border-radius: 5px;
+	text-align:center;
+}
+
+/*========================================= END OF Earned Gems Complete ======================================*/
+
+/*========================================= My Profile ======================================*/
+
+.detail-sub{
+	padding-top: 32px;
+	font-size: 16px;
+	padding-left: 16px;
+	font-weight:600;
+}
+.sub-div h2 {
+    padding: 2px 16px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8E8E93;
+}
+.sub-div {
+    border: 1px solid #E5E5EA;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+}
+.detail-right {
+    width: 40%;
+    text-align: right;
+}
+.detail-left {
+    width: 60%;
+}
+.sub-div-two h2 {
+    padding: 2px 16px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8E8E93;
+}
+.sub-div-two {
+    border: 1px solid #E5E5EA;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    display: flex;
+}
+
+
+/*======================toggle===========================*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 25px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #34c759;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.detail-right .switch {
+    margin: 12px;
+    margin-right: 12px;
+    text-align: center;
+    align-items: center;
+    padding: inherit;
+}
+.detail-right-t h2 {
+    color: #000000;
+    font-weight: 500;
+}
+.green h2{
+	color: #34C759;
+}
+.black h2{
+	color: #000000;
+}
+
+/*========================================= END OF My Profile ======================================*/
+
+
+/*================================================ FAQs Page =================================================*/
+.single-faq {
+    padding: 20px 16px;
+    border: 1px solid #E5E5EA;
+    border-left: 0px;
+    border-right: 0px;
+}
+.single-faq a h2{
+	font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0px;
+}
+.single-faq-two {
+    padding: 20px 16px;
+    border: 1px solid #E5E5EA;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+.single-faq-two a h2{
+	font-size: 16px;
+	color: #000000;
+	font-weight: 400;
+	margin:0px;
+}
+
+/*================================================ END OF FAQs Page =================================================*/
+
+
+/*================================================ FAQs POP UP =================================================*/
+
+.faq-ans-back {
+    padding: 0px 0px 0px;
+    background: #E0E0E0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.faq-ans-back.popup-show{display: block !important;}
+.all-ans-data {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 30px 30px 0px 0px;
+}
+.faq-ans-back h2{
+	font-size: 17px;
+	font-weight: 600;
+}
+.faq-ans-back p{
+	font-size: 17px;
+	font-weight: 400;
+}
+.done a h3 {
+    color: #ffffff;
+    text-align: center;
+    background: #007AFF;
+    margin: 0px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 500; 
+    padding: 14px 0px;
+}
+.done {
+    padding-top: 100px;
+    background: #ffffff;
+}
+.line {
+    position: absolute;
+    background: #dce1e4;
+    width: 91px;
+    height: 4px;
+    border-radius: 10px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*================================================ My profile =========================================*/
+
+
+.icon-filter img {
+    padding-top: 4px;
+    width: 14.67px;
+    height: 13.33px;
+}
+.filter-text h2 {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 4px;
+    color: #ffffff;
+}
+.stiky-filter {
+    position: fixed;
+    bottom: 20px;
+}
+.stik {
+    display: flex;
+    align-items: center;
+    background: #007AFF;
+    padding: 3px 13px;
+    border-radius: 8px;
+}
+.stiky-filter {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*================================================ My profile end =========================================*/
+
+
+
+/*================================================ Menu =========================================*/
+
+
+.all-sub-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.head-tital h2{
+    font-size: 17px;
+}
+.icon-arrow img {
+    width: 5.33px;
+    height: 9.33px;
+}
+.head-tital {
+    width: 100%;
+}
+.pad-bot {
+    margin-bottom: 247px;
+}
+a .head-tital h2 {
+    color: #000 !important;
+}
+.done-menu{
+    padding-top: 40px;
+    margin-top: 0px;
+    background: #ffffff;
+}
+
+/*================================================ End Menu =========================================*/
+
+
+@media(max-width: 320px) {
+	.icon {
+		width: 30%;
+	}
+	.text {
+		width: 70%;
+	}
+	.amount-gems {
+		width: 29%;
+	}
+	.offer-top-section .col-4 {
+		width: 25%;
+	}
+	.ammount-s {
+		display: flex;
+		align-items: center;
+		border-radius: 4px;
+		width: 69px;
+		margin: 0px -5px;
+		padding: 0px;
+		background-color: #000000;
+	}
+	.one-s {
+		width: 31.33%; 
+		padding: 0px;
+		margin: 10px;
+		background: #F2F2F7;
+		border-radius: 12px;
+	}
+	.ammount h2 {
+		margin: 6px 0px;
+		font-size: 14px;
+		font-weight: 500;
+		color: #ffffff;
+		margin-right: 5px;
+	}
+}
+
+/*========================================== Filter =============================================*/
+
+label.text-btn {
+    font-size: 17px;
+    font-weight: 500;
+}
+label.text-btn {
+    font-size: 17px;
+    margin: 0px 0px 15px;
+    display: inline-flex;
+}
+.all-ans-data h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+h3.filter-by {
+    margin-top: 27px;
+}
+input.largerCheckbox {
+    transform : scale(1.5);
+    margin-right: 11px;
+}
+.all-ans-data {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 30px 30px 0px 0px;
+}
+.form__radio-input {
+  display: none;
+}
+
+.form__label-radio {
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    padding-top: -4px;
+    padding-left: 36px;
+    color: #8e8e93;
+}
+
+.form__radio-input:checked ~ .form__label-radio .form__radio-button::after {
+  opacity: 1;
+}
+.form__radio-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #8e8e93;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.form__radio-button::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007AFF;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.form__radio-group {
+    margin-bottom: 16px;
+}
+.all-ans-data h3 {
+    padding-bottom: 7px;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border: 1px solid #8E8E93;
+    border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #007aff;
+    border-radius: 4px;
+}
+
+.container input:checked ~ .container{
+    color:red;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container input:checked ~ .checkmark {
+  border: none;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 1.7px 1.7px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.done.done-filter {
+    padding-top: 69px;
+}
+input[type="radio"]:checked + label {
+  color: #000000;
+  border-color: green;
+}
+input[type="radio"]:checked + label span{
+    border-color: #007AFF;
+}
+input:checked + p {
+    color:#000000;
+}
+.faq-ans-back p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #8e8e93;
+}
+.bottom-btn{
+    display: flex;
+}
+.reset-all, .apply{
+    width: 50%;
+}
+.reset-all a h3{
+    margin-right: 8px;
+    color: #007AFF;
+    background: #F2F2F7;
+    font-weight:600;
+}
+.apply a h3{
+    margin-left: 8px;
+    background: #007AFF;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/*========================================== Filter =============================================*/
+
+
+
+/*============================== This css can make your surveys perfect ===================================*/
+.survey {
+    background: #f2f2f7;
+    padding: 17px 7px;
+    margin: 5px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    line-height: 23px;
+    width: 26.6%;
+}
+.award.green {
+    position: relative;
+    /*word-break: break-all;*/
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    width: 82px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+    color: #ffff;
+    padding: 0px;
+    padding: 1px;
+    font-size:14px;
+    background-color: #000000;
+    padding-left:4px;
+    width: 95%;
+}
+.surveytime {
+    color: #007AFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 4px;
+    margin-bottom: 2px;
+}
+.surveywrap {
+    margin: 1px;
+    text-align: center;
+    width: 99%;
+}
+.faq-ans-back{
+	background-color: #ffffff;
+	height: 100vh !important;
+}
+
+@media(max-width: 425px){
+    .award.green{
+
+    }
+    ximg.currencyimg {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .award.green::before{
+        top: 18px !important;
+        left: 8px !important;
+    }
+    .currencyimg strike{
+        font-size: 12px !important;
+    }
+}
+
+@media(max-width:320px){
+    .survey {
+    	width: 25.4%;
+	}
+    .award.green::before{
+        /*top: 18px !important;*/
+        left: 6px !important;
+        font-size: 18px !important;
+    }
+}
+
+
+.award.green {
+    display: flex;
+    flex-wrap: wrap;
+}
+.award.green strike {
+    order: 2;
+    width: 100%;
+    line-height: 13px;
+}
+.award.green::before {
+    content: "+";
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    padding-left: 0px;
+    font-size: 20px;
+    color: #007aff;
+    font-weight: 700;
+}
+.award.green {
+    padding: 9px 0px;
+    justify-content: center;
+    margin: 0px auto;
+}
+div#cboxMiddleLeft, div#cboxMiddleRight, div#cboxTopLeft, div#cboxTopCente, div#cboxBottomCenter, div#cboxBottomRight, div#cboxBottomLeft, div#cboxTopRight, div#cboxTopCenter {
+    display: none;
+}
+
+div#cboxContent {
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+.all-ans-data {
+    /*width:100%;*/
+}
+div#cboxContent {
+    border-radius: 30px 30px 0px 0px !important;
+}
+#colorbox{
+    width: -webkit-fill-available !important;
+    overflow: hidden !important;
+    height: -webkit-fill-available !important;
+}
+
+
+div#cboxLoadedContent, div#cboxWrapper, div#cboxContent {
+    width: 100% !important;
+}
+/*button#cboxClose {
+    display: none;
+}*/
+div#colorbox {
+    position: fixed !important;
+}
+div#colorbox {
+    top: 15% !important;
+}
+button#cboxClose {
+    top: 8px;
+    right: 10px;
+}
+div#featRow {
+    width: 100% !important;
+}
+.bigfeat {
+    width: auto;
+}
+body {
+    min-width: 100% !important;
+}
+.bigfeat a > div {
+    border-radius: 10px;
+    bottom: 160px !important;
+    left: 0px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-position: center center !important;
+    top: auto !important;
+}
+.bigfeat {
+    height: 567px !important;
+}
+.jumptxt p b {
+    max-width: 100%;
+    display: block;
+}
+.jumptxt > a {
+	color: #fafdff;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+.jumptxt a b {
+	top: 390px !important];
+    font-size: 15px;
+    line-height: 20px;
+    color: #f8ffff !important;
+    font-weight: 100;
+    width: 95% !important;
+}
+div.jumptxt {
+    left: 10px !important;
+    top: 22px !important;
+    text-align: left ;
+    height: 100% !important;
+}
+.button.red {
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    bottom: 93px !important;
+}
+.button.blue{
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    bottom: 40px !important;
+}
+div#featVis {
+    border: none !important;
+}
+div.offer{
+	background-color: #35475b !important;
+}
+center div#featRow {
+    background: #35475b !important;
+}
+div.button.red {
+    background: #007aff !important;
+    border-bottom: 2px solid #004a9a !important;
+}
+div.button.blue {
+    background: #3b97d200 !important;
+    border: 2px solid #007AFF;
+    color: #000000 !important;
+}
+div.button.blue a u font {
+    color: #ffffff !important;
+}
+#cboxClose{
+    border-radius: 50% !important;
+}
+div#cboxContent {
+    background: #35475b !important;
+}
+center .offers {
+    box-shadow: none !important;
+}
+.bottom-btn {
+    padding-bottom: 50px !important;
+    background: white !important;
+}
+@media(min-width:376px) and (max-width:1024px){
+	.bigfeat {
+    width: 100% !important;
+}
+div.jumptxt{
+	width: 100% !important;
+}
+div#featBut {
+    left: -30px !important;
+}
+.offers {
+    box-shadow: none !important;
+}
+.bigfeat a > div {
+    border-radius: 10px;
+    bottom: 160px !important;
+    left: 0px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-position: center center !important;
+    top: auto !important;
+}
+.bottom-btn {
+    padding-bottom: 50px !important;
+    background: white !important;
+}
+.safari div#colorbox{
+	top:0 !important;
+}
+.safari #cboxContent{
+	overflow-y: scroll !important;
+}
+.safari div#colorbox {
+    top: 0% !important;
+}
+.safari div#cboxContent {
+    height: 877px !important;
+}
+.safari div#colorbox {
+    top: 0% !important;
+}
+div#cboxLoadedContent {
+    width: 100% !important;
+}
+.button.blue {
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    bottom: 67px !important;
+}
+.button.red {
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    bottom: 125px !important;
+}
+.faq-ans-back {
+    height: 100vh;
+    overflow-y: scroll !important;
+}
+.bottom-btn {
+    margin-bottom: 30px !important;
+}
+.safari .faq-ans-back {
+    padding: 0px 0px 0px;
+    background: #e0e0e000;
+}
+.faq-ans-back {
+    background: #e0e0e000;
+}
+
+/*----------------- Chrome -------------------*/
+
+
+/*=======================================================*/
+
+/*-------------------------- Changes --------------------------*/
+
+/*----------------- Last Eror solv ----------------*/
